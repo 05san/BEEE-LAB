@@ -1,0 +1,11 @@
+void setup()
+{
+pincode(13, OUTPUT);
+}
+Void loop()
+{
+digitalWrite(13, HIGH);
+delay(500);
+digitalWrite(13, LOW);
+delay(1000);
+}
